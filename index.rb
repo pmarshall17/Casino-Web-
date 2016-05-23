@@ -1,19 +1,11 @@
 require 'sinatra'
 require 'pry'
 
-get '/casino' do
+get '/' do
 	erb :main_menu
 end
 
-#slots call
+get '/entrees' do
+	erb :entrees
+end
 
-
-
-#hilow call
-
-
-
-#rock paper scissors call
-
-
-# not found page response
