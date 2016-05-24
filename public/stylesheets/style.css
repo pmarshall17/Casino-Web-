@@ -105,3 +105,11 @@ ol {
 	text-align: center;
 	font-size: 30px;
 }
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: #bfbfbf;
+}
