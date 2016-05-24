@@ -1,17 +1,20 @@
 <h1>MY ORDER</h1>
 <hr/>
-<form action='/checkout' method='POST'>
-<h3>Entree:</h3>
-	<input type= 'checkbox' name= 'Cheeseburger'/> Cheeseburger <br>
-	<input type= 'checkbox' name= 'Hot_Dog'/> Hot Dog <br>
-	<input type= 'checkbox' name= 'Pasta'/> Pasta <br>
-	<input type= 'checkbox' name= 'Chicken_Sandwhich'/> Chicken Sandwhich <br>
-<h3>Sides:</h3>
-	<input type= 'checkbox' name= 'Fries'/> Fries <br>
-	<input type= 'checkbox' name= 'Garden_Salad'/> Garden Salad <br>
-	<input type= 'checkbox' name= 'Mixed_Vegetables'/> Mixed Veggies <br>
-	<input type= 'checkbox' name= 'Mashed_Taters'/> Taters <br>
-	<input type= 'Submit' value = 'Checkout'/> 
-</form>
-
-<a  href="/entrees">Click to return to Food Menu</a>
+<div class = 'form'>
+	<form action='/checkout' method='POST'>
+		<h3>Entree:</h3>
+			<input type= 'checkbox' name= 'Cheeseburger'/> Cheeseburger <br>
+			<input type= 'checkbox' name= 'Hot_Dog'/> Hot Dog <br>
+			<input type= 'checkbox' name= 'Pasta'/> Pasta <br>
+			<input type= 'checkbox' name= 'Chicken_Sandwhich'/>Chicken Sandwich<br>
+		<h3>Sides:</h3>
+			<input type= 'checkbox' name= 'Fries'/> Fries <br>
+			<input type= 'checkbox' name= 'Garden_Salad'/> Garden Salad <br>
+			<input type= 'checkbox' name= 'Mixed_Vegetables'/> Mixed Veggies <br>
+			<input type= 'checkbox' name= 'Mashed_Taters'/> Taters <br>
+			<input type= 'Submit' class = 'button' value = 'Checkout'/> 
+	</form>
+</div>
+<div class='link'>
+	<a href="/entrees">Click to return to Food Menu</a>
+</div>

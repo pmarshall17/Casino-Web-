@@ -5,6 +5,10 @@ get '/' do
 	erb :entrees
 end
 
+get '/entrees' do
+	erb :entrees
+end
+
 get '/checkout' do
 	erb :checkout
 end
